@@ -2,7 +2,8 @@
 
 module.exports = function (environment) {
   let ENV = {
-    modulePrefix: 'demo-eslint-plugin-qunit-no-assert-ok-ignore-nested-function',
+    modulePrefix:
+      'demo-eslint-plugin-qunit-no-assert-ok-ignore-nested-function',
     environment,
     rootURL: '/',
     locationType: 'auto',

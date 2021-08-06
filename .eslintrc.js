@@ -15,11 +15,14 @@ module.exports = {
     'eslint:recommended',
     'plugin:ember/recommended',
     'plugin:prettier/recommended',
+    'plugin:qunit/recommended',
   ],
   env: {
     browser: true,
   },
-  rules: {},
+  rules: {
+    'qunit/no-assert-ok': 2,
+  },
   overrides: [
     // node files
     {
